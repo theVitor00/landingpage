@@ -1,0 +1,40 @@
+.main__cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 421px;
+    width: 100%;
+    background-color: #7b7b7b;
+
+    .main__cta-content {
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+
+        .main__cta-title {
+            font-size: 2.5rem;
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+
+        .main__cta-text {
+            font-size: 1.5rem;
+            color: #fff;
+            margin-bottom: 1rem;
+        }
+
+        .main__cta-link {
+            width: 234px;
+            height: 64px;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            font-size: 1.5rem;
+            border-radius: 5px;
+        }
+    }
+}
